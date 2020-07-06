@@ -1,8 +1,4 @@
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the application you have to connect the existing Mongo db in **db.py** file and use **npm start** command to run the development server
 
 ### Endpoints:
 * #### /register(POST)         example body: {"login": "admin", "password": "admin"}, returns you a JWT token and creates a collection in Mongo for this user 
