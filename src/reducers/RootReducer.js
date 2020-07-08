@@ -1,5 +1,4 @@
 import { setTodos } from "../requests";
-import { Redirect } from "react-router-dom";
 
 let initState = {
   todos: [],

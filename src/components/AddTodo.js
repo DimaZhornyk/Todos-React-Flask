@@ -39,7 +39,12 @@ class AddTodo extends React.Component {
           <button
             type="submit"
             className="filter-option"
-            style={{ backgroundColor: "transparent", outline: "none" }}
+            style={{
+              backgroundColor: "#ffffff",
+              outline: "none",
+              marginLeft: "15px",
+              width: "150px",
+            }}
           >
             Add Todo
           </button>

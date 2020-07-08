@@ -9,7 +9,7 @@ function Filter(props) {
         onClick={() => props.changeFilter("SHOW_ALL")}
         style={{
           backgroundColor:
-            props.visibilityFilter === "SHOW_ALL" ? "#eeeeee" : "transparent",
+            props.visibilityFilter === "SHOW_ALL" ? "#eeeeee" : "#ffffff",
         }}
         className="filter-option"
       >
@@ -21,7 +21,7 @@ function Filter(props) {
           backgroundColor:
             props.visibilityFilter === "SHOW_COMPLETED"
               ? "#eeeeee"
-              : "transparent",
+              : "#ffffff",
         }}
         className="filter-option"
       >
@@ -33,7 +33,7 @@ function Filter(props) {
           backgroundColor:
             props.visibilityFilter === "SHOW_ACTIVE"
               ? "#eeeeee"
-              : "transparent",
+              : "#ffffff",
         }}
         className="filter-option"
       >

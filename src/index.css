@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f4f4fa !important;
+  background-color: #e1e1f5 !important;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -29,10 +29,6 @@ body {
 
 #tick:hover {
   color: #34a853;
-}
-
-.filter-option {
-  cursor: pointer;
 }
 
 .ant-card {
@@ -59,9 +55,12 @@ body {
 }
 
 .filter-option {
+  cursor: pointer;
   width: 150px;
   height: 50px;
   background: #f3f0f1;
+  background-color: #ffffff;
+  justify-content: center;
   position: relative;
   border-radius: 22px;
   margin-top: 10px;
@@ -73,19 +72,18 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: bolder;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
-  /* color: #34a853; */
-  color: #765ff7;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: #5d4db9;
   border: 0px;
 }
 
 .filter-option:hover {
   opacity: 0.3;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 .filter-option:active {
   opacity: 1;
-  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .MuiInput-underline::before {
@@ -154,7 +152,6 @@ body {
 .MuiFormControl-root {
   margin-top: 3% !important;
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -318,12 +315,14 @@ a.more-link {
   margin-right: 10px;
 }
 
-.ant-page-header-heading-left{
-  margin-left: 3% !important; 
-  /* color: #d62d20 !important; */
+.ant-page-header-heading-left {
+  margin-left: 3% !important;
+}
+.ant-page-header-heading-title {
+  color: #3c3080 !important;
 }
 
-.ant-page-header{
+.ant-page-header {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }

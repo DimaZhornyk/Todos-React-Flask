@@ -49,9 +49,17 @@ export default class Todo extends React.Component {
         <Col span={7}>
           <Card
             title="Card"
-            bordered={false}
+            bordered={true}
             hoverable="true"
             title={dhm(this.state.diff)}
+            headStyle={{
+              borderColor: this.props.completed ? "#5d4db9" : "#f0f0f0",
+              color: "#3c3080",
+            }}
+            style={{
+              backgroundColor: this.props.completed ? "#f9f9ff" : "#ffffff",
+              color: "#3c3080",
+            }}
             extra={
               <>
                 <CheckOutlined
@@ -70,14 +78,7 @@ export default class Todo extends React.Component {
               </>
             }
           >
-            <p
-              className="content"
-              style={{
-                textDecoration: this.props.completed ? "line-through" : "none",
-              }}
-            >
-              {this.props.body}
-            </p>
+            <p className="content">{this.props.body}</p>
           </Card>
         </Col>
       </>

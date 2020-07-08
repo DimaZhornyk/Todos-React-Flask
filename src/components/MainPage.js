@@ -27,7 +27,9 @@ function MainPage(props) {
         className="site-page-header"
         title={sessionStorage.getItem("username")}
         extra={[
-          <Button
+          <div
+            className="filter-option"
+            style={{ width: "100px", backgroundColor: "#e1e1f5" }}
             onClick={() => {
               sessionStorage.removeItem("token");
               sessionStorage.removeItem("username");
@@ -35,7 +37,7 @@ function MainPage(props) {
             }}
           >
             Log out
-          </Button>,
+          </div>,
         ]}
       />
       <Toolbar />
