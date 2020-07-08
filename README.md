@@ -7,4 +7,5 @@ To run the application you have to connect the existing Mongo db in **db.py** fi
 * #### /todo(GET)        returns a list of user's todos :exclamation: requires JWT
 <img src="/screenshots/login.png" width="500" title="Login page">
 <img src="/screenshots/main.png" width="500" title="Main page">
+<img src="/screenshots/delete.png" width="500" title="Main page">
 <img src="/screenshots/404.png" width="500" title="404 page">
